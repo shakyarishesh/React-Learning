@@ -1,18 +1,16 @@
-import { useState } from "react";
-import Alert from "./components/Alert";
-import Button from "./components/Button";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Reactreact from "./components/Reactreact";
+import Message from "./Message";
 
-function App() {
-
-  const [showAlert, setShowAlert] = useState(false);
+const App: React.FC = () => {
   return (
-    <div>
-      {showAlert && <Alert onclose={() => setShowAlert(false)}> This is an alert. </Alert>}
-      <Button color="primary" onClick={() => setShowAlert(true) }>
-        My button
-      </Button>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Reactreact />} />
+        <Route path="/yes" element={<Message />} />
+      </Routes>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;
