@@ -5,7 +5,7 @@ const Message: React.FC = () => {
     <div style={styles.page}>
       <h1 style={styles.title}>YAY!!! 💘🥰</h1>
       <p style={styles.text}>
-        You just made this the best Valentine’s Day ever 🌹
+        You just made this the best Valentine’s Day ever 🌹. I love you 💖
       </p>
       <Confetti />
     </div>
