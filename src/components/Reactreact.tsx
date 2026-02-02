@@ -29,7 +29,7 @@ const Reactreact: React.FC = () => {
       <div style={styles.card}>
         <h1 style={styles.title}>Will you be my Valentine? 🌹</h1>
         <p style={styles.subtitle}>
-          I promise snacks, laughs, and dramatic eye contact 💕
+          Yours Gloden retriever. 💕
         </p>
 
         <div style={styles.buttons}>
